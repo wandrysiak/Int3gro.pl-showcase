@@ -1,0 +1,25 @@
+# Środowisko i sekrety
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Zależności i build
+node_modules/
+dist/
+build/
+.next/
+out/
+.venv/
+venv/
+__pycache__/
+
+# IDE / system
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
